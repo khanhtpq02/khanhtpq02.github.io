@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV của bạn</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f0f0f0;
+      padding: 20px;
+      color: #555; /* Màu chữ chính */
+    }
+    .avatar {
+      max-width: 100%;
+      height: auto;
+    }
+    .name {
+      font-size: 28px;
+      font-weight: bold;
+      color: #00a28c; /* Màu tên nổi bật */
+      margin-bottom: 10px;
+    }
+    .section-title {
+      color: #00a28c; /* Màu tiêu đề nổi bật */
+    }
+    .highlight {
+      background-color: #00a28c;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+    .date {
+      color: #00a28c; /* Màu ngày tháng năm */
+    }
+    .work-experience {
+      margin-bottom: 20px; /* Khoảng cách giữa các mục kinh nghiệm làm việc */
+    }
+    .work-experience h3 {
+      margin-bottom: 10px; /* Khoảng cách giữa tiêu đề và nội dung */
+    }
+  </style>
+</head>
+<body>
+  <div class="container bg-white p-4">
+    <!-- Hàng 1 -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="name">Nguyễn Văn A</h2>
+        <p><strong>Ngày sinh:</strong> 01/01/1990</p>
+        <p><strong>Địa chỉ:</strong> Số 10, Đường ABC, TP. HCM</p>
+        <p><strong>Email:</strong> example@gmail.com</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="avatar.jpg" alt="Avatar" class="avatar">
+      </div>
+    </div>
+
+    <!-- Hàng 2 -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero nec est elementum eleifend.</p>
+      </div>
+    </div>
+
+    <!-- Hàng 3 -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="section-title">Học vấn</h2>
+        <ul>
+          <li><strong>Bằng cử nhân CNTT</strong> - Đại học ABC <span class="date"> (2010 - 2014)</span></li>
+          <li><strong>Khóa học lập trình di động</strong> - Trung tâm XYZ <span class="date">(2015)</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Hàng 4 -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="section-title">Kinh nghiệm làm việc</h2>
+        <div class="work-experience">
+          <h3>Công ty ABC</h3>
+          <p><span class="date">2015 - 2018</span></p>
+          <p>Chức vụ: Lập trình viên</p>
+        </div>
+        <div class="work-experience">
+          <h3>Công ty XYZ</h3>
+          <p><span class="date">2018 - nay</span></p>
+          <p>Chức vụ: Trưởng nhóm phát triển</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hàng 5 -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="section-title">Tiếng Anh</h2>
+        <ul>
+          <li><strong>Nghe:</strong> Tốt</li>
+          <li><strong>Nói:</strong> Trung bình</li>
+          <li><strong>Đọc:</strong> Giỏi</li>
+          <li><strong>Viết:</strong> Khá</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Hàng 6 -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="section-title">Kỹ năng</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero nec est elementum eleifend.</p>
+      </div>
+      <div class="col-md-6">
+        <h2 class="section-title">Sở thích</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero nec est elementum eleifend.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
