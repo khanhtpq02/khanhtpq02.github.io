@@ -1,126 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV của bạn</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    body {
-      background-color: #f0f0f0;
-      padding: 20px;
-      color: #555; /* Màu chữ chính */
-    }
-    .avatar {
-      max-width: 100%;
-      height: auto;
-    }
-    .name {
-      font-size: 28px;
-      font-weight: bold;
-      color: #00a28c; /* Màu tên nổi bật */
-      margin-bottom: 10px;
-    }
-    .section-title {
-      color: #00a28c; /* Màu tiêu đề nổi bật */
-    }
-    .highlight {
-      background-color: #00a28c;
-      color: white;
-      padding: 5px 10px;
-      border-radius: 4px;
-    }
-    .date {
-      color: #00a28c; /* Màu ngày tháng năm */
-    }
-    .work-experience {
-      margin-bottom: 20px; /* Khoảng cách giữa các mục kinh nghiệm làm việc */
-    }
-    .work-experience h3 {
-      margin-bottom: 10px; /* Khoảng cách giữa tiêu đề và nội dung */
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Trần Phạm Quốc Khánh</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .profile-img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+        .skills ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skills ul li {
+            background: #f8f9fa;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container bg-white p-4">
-    <!-- Hàng 1 -->
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="name">Trần Phạm Quốc Khánh </h2>
-        <p><strong>Ngày sinh:</strong> 09/12/2005</p>
-        <p><strong>Địa chỉ:</strong> Yên Hồng, Ý Yên,Nam Định</p>
-        <p><strong>Email:</strong> khanhtpqph51849khanhtpqph51849@gmail.com</p>
-      </div>
-      <div class="col-md-6 text-center">
-        <img src="avatar.jpg" alt="Avatar" class="avatar">
-      </div>
-    </div>
-
-    <!-- Hàng 2 -->
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero nec est elementum eleifend.</p>
-      </div>
-    </div>
-
-    <!-- Hàng 3 -->
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="section-title">Học vấn</h2>
-        <ul>
-          <li><strong>Bằng cử nhân CNTT</strong> - Đại học ABC <span class="date"> (2010 - 2014)</span></li>
-          <li><strong>Khóa học lập trình di động</strong> - Trung tâm XYZ <span class="date">(2015)</span></li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Hàng 4 -->
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="section-title">Kinh nghiệm làm việc</h2>
-        <div class="work-experience">
-          <h3>Công ty ABC</h3>
-          <p><span class="date">2015 - 2018</span></p>
-          <p>Chức vụ: Lập trình viên</p>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="https://github.com/khanhtpq02/khanhtpq02.github.io/blob/main/234.jpg" alt="Profile Image" class="profile-img mb-3">
+                <h2>Trần Phạm Quốc Khánh</h2>
+                <p>Full Stack Developer</p>
+                <hr>
+                <div class="contact-info text-left">
+                    <p><i class="fas fa-phone"></i> +123-456-7890</p>
+                    <p><i class="fas fa-envelope"></i> khanhtqpph51849@gmail.com</p>
+                    <p><i class="fas fa-globe"></i> www.reallygreatsite.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Anywhere Street, Any City</p>
+                </div>
+                <hr>
+                <div class="skills">
+                    <h5 class="section-title">Skills</h5>
+                    <ul>
+                        <li>Accomplished full-stack developer with track record of success in Java, Spring Framework.</li>
+                        <li>Hands-on experience on developing Microservices using Spring Boot.</li>
+                        <li>End to End integration experience of Microservices with front end system.</li>
+                        <li>Knowledge of backend components such as Spring Framework, Spring Boot or any other MVC architectures.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="profile">
+                    <h5 class="section-title">Profile</h5>
+                    <p>Web developer or engineer who works with both the front and back ends of a website or application. Provide an end-to-end service, and can be involved in projects that involve databases and building user-facing websites.</p>
+                </div>
+                <div class="education mt-4">
+                    <h5 class="section-title">Education</h5>
+                    <p><strong>2010-2014</strong></p>
+                    <p><strong>Ingoude University</strong></p>
+                    <p>Bachelor of Computer Science and Networks</p>
+                    <p>GPA: 3.65</p>
+                </div>
+                <div class="experience mt-4">
+                    <h5 class="section-title">Experience</h5>
+                    <p><strong>2015-2018</strong></p>
+                    <p><strong>Aldenaire & Partners</strong></p>
+                    <p>Full Stack Developer</p>
+                    <ul>
+                        <li>Design and Develop Restful APIs and Microservices for BANCA platform for ingestion and consumption.</li>
+                        <li>Gather and refine specification and requirements based on technical needs.</li>
+                        <li>Build Microservices with the 12 Factor App Pattern on Pivotal Cloud Foundry (PCF).</li>
+                        <li>Create and maintain software automation using CI-CD.</li>
+                    </ul>
+                    <p><strong>2019-Now</strong></p>
+                    <p><strong>Larana, Inc.</strong></p>
+                    <p>Full Stack Developer</p>
+                    <ul>
+                        <li>Deliver and integrate Microservices with web and mobile applications.</li>
+                        <li>Follow Agile Software methodologies for development.</li>
+                        <li>Write automated unit, feature, and regression test suites.</li>
+                        <li>Create and maintain software automation using CI-CD.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="work-experience">
-          <h3>Công ty XYZ</h3>
-          <p><span class="date">2018 - nay</span></p>
-          <p>Chức vụ: Trưởng nhóm phát triển</p>
-        </div>
-      </div>
     </div>
-
-    <!-- Hàng 5 -->
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="section-title">Tiếng Anh</h2>
-        <ul>
-          <li><strong>Nghe:</strong> Tốt</li>
-          <li><strong>Nói:</strong> Trung bình</li>
-          <li><strong>Đọc:</strong> Giỏi</li>
-          <li><strong>Viết:</strong> Khá</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Hàng 6 -->
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="section-title">Kỹ năng</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero nec est elementum eleifend.</p>
-      </div>
-      <div class="col-md-6">
-        <h2 class="section-title">Sở thích</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero nec est elementum eleifend.</p>
-      </div>
-    </div>
-
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
